@@ -2,7 +2,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            height: 100vh;
+            height: 100%;
             width: 100vw;
             object-fit: cover;
         }
@@ -135,9 +135,8 @@
         @media screen and (max-width: 1032px) {
             body {
                 flex-direction: column;
-                /* i will make background with more then 2 color */
-                background: linear-gradient( rgb(171, 197, 255) 50%, rgb(155, 173, 177) 100%);
-                height: 100%;
+                background-image: url("./wbk.jpg");
+                background-repeat: no-repeat;
             }
             .container {
                 flex-direction: column;
@@ -160,7 +159,6 @@
                 align-items: center;
                 /* font-size: 2.5em; */
                 padding: 50px;
-                color: #282a31;
             }
             .weather-form input,
             textarea {
