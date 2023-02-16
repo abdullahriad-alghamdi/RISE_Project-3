@@ -70,6 +70,7 @@
             font-size: 1.2em;
             display: block;
             margin-bottom: 1em;
+            width: 100%;
         }
         
         .weather-form button {
@@ -130,6 +131,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            color: gray;
         }
         
         @media screen and (max-width: 1032px) {
@@ -163,6 +165,7 @@
             .weather-form input,
             textarea {
                 width: 100%;
+                resize: none;
             }
             .weather-form button {
                 padding: 20px;
