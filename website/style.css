@@ -71,6 +71,7 @@ textarea {
     display: block;
     margin-bottom: 1em;
     width: 100%;
+    resize: none;
 }
 
 .weather-form button {
@@ -133,7 +134,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1032px) {
