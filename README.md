@@ -1,4 +1,4 @@
-# Weather-Journal App Project
+# Weather Journal App Project
 The Weather-Journal App is a web application designed to allow users to enter their zip code and a brief description of how they're feeling to receive the current weather data for their location and save it to a server. This project was created as a part of Udacity's Front End Web Development course.
 
 ## Overview
